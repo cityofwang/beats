@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T02:25:58.353Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xe4PsQx3z6aQSKqOZ_6w" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T02:27:16.739Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Iw12cFvuZdnNF93cAfJ7" version="22.1.21" type="github">
   <diagram name="第 1 页" id="3Xj8i7NFPnENORa3YPvw">
     <mxGraphModel dx="1171" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bx3Se1ZGkoEOsN2EIgxj-11" value="当前kubelet是否&lt;br&gt;为最新版本？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="177.5" y="308" width="163" height="50" as="geometry" />
+          <mxGeometry x="177.5" y="307" width="163" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bx3Se1ZGkoEOsN2EIgxj-15" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="299" width="30" height="30" as="geometry" />
