@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T03:30:31.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="s-MWDyVHCZlnCtIRM7nS" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T06:17:40.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="x_gtowr_oQw0Jku8P-e3" version="22.1.21" type="github">
   <diagram id="fS3fNCyKhhayTO1-3gkl" name="第 1 页">
-    <mxGraphModel dx="607" dy="-375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="606" dy="-455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1953,7 +1953,7 @@
         <mxCell id="tSPoUM16N8z4JPPPQz9L-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-32" target="tSPoUM16N8z4JPPPQz9L-221">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tSPoUM16N8z4JPPPQz9L-238" value="goroutine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tSPoUM16N8z4JPPPQz9L-31">
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-238" value="&amp;nbsp;goroutine&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tSPoUM16N8z4JPPPQz9L-31">
           <mxGeometry x="0.0059" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2576,8 +2576,8 @@
         <mxCell id="tSPoUM16N8z4JPPPQz9L-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-200" target="tSPoUM16N8z4JPPPQz9L-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tSPoUM16N8z4JPPPQz9L-200" value="在线容器CPU资源按照0.45buffer预留&lt;br&gt;离线容器资源 &lt;br&gt;CPU按5核倍数分配&lt;br&gt;同时，cpu按照1倍超分&lt;br&gt;CPU:MEM按照 1:3 ～1:8动态分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3481.7100000000005" y="6503.300000000003" width="235.58" height="96.6" as="geometry" />
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-200" value="在线容器CPU资源按照0.5buffer预留&lt;br&gt;离线容器资源 &lt;br&gt;CPU按3核倍数进行资源规整&lt;br&gt;CPU:MEM按照 1:3 ～1:8动态分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3482.06" y="6513.43" width="235.58" height="76.7" as="geometry" />
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-202" target="tSPoUM16N8z4JPPPQz9L-203">
           <mxGeometry relative="1" as="geometry">
