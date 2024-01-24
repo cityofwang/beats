@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T01:00:38.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qwc9Mnmk1_Cde1PL_7xY" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T06:07:37.356Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zAWRTDJO5YVCZfSUZ24p" version="22.1.21" type="github">
   <diagram id="fS3fNCyKhhayTO1-3gkl" name="第 1 页">
-    <mxGraphModel dx="1236" dy="-190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="546" dy="-439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1939,7 +1939,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-24" value="以新规格 重启 offline容器中的 nm（超分：vcores / cores =&amp;nbsp; 2 / 1 ）&lt;br&gt;+&lt;br&gt;开启 yarn job 调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3308.17" y="6736.920000000003" width="197.97" height="63.74" as="geometry" />
+          <mxGeometry x="3252.7000000000003" y="6736.920000000003" width="197.97" height="63.74" as="geometry" />
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-25" value="已开启混部记录接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="3555.5700000000006" y="6749.730000000003" width="119.5" height="38.12" as="geometry" />
@@ -2059,9 +2059,8 @@
         <mxCell id="tSPoUM16N8z4JPPPQz9L-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-60" target="tSPoUM16N8z4JPPPQz9L-91">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1684.08" y="6930" />
-              <mxPoint x="5183.08" y="6930" />
-              <mxPoint x="5183.08" y="6364" />
+              <mxPoint x="1684" y="6930" />
+              <mxPoint x="5180" y="6930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2701,7 +2700,7 @@
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-298" value="当前offline资源&amp;nbsp; =&amp;nbsp;可用offline资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tSPoUM16N8z4JPPPQz9L-284">
           <mxGeometry x="-0.4564" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-261" value="yarn是否&lt;br&gt;刚启动？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -2712,12 +2711,12 @@
             <mxPoint x="4511.508749999999" y="5815.320000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tSPoUM16N8z4JPPPQz9L-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-262" target="tSPoUM16N8z4JPPPQz9L-281">
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-262" target="tSPoUM16N8z4JPPPQz9L-281">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-297" value="当前offline资源&amp;nbsp; =&amp;nbsp;可用offline资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tSPoUM16N8z4JPPPQz9L-283">
           <mxGeometry x="-0.1958" relative="1" as="geometry">
-            <mxPoint y="-4" as="offset" />
+            <mxPoint x="-3" y="-51" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-262" value="离线总资源&lt;br&gt;CPU变动 &amp;gt; 3 croe?" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -2780,17 +2779,16 @@
         <mxCell id="tSPoUM16N8z4JPPPQz9L-278" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4151.39" y="5840.2699999999995" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tSPoUM16N8z4JPPPQz9L-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tSPoUM16N8z4JPPPQz9L-299">
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-281" target="tSPoUM16N8z4JPPPQz9L-299">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4420.09" y="6231.4800000000005" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="4420.120000000001" y="6247.51" />
-              <mxPoint x="4214.120000000001" y="6247.51" />
+              <mxPoint x="4520" y="6260" />
+              <mxPoint x="4214" y="6260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-281" value="对离线总资源&lt;br&gt;进行二次分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4361.860000000001" y="6190.72" width="118.42" height="40.76" as="geometry" />
+          <mxGeometry x="4461.05" y="6195.6900000000005" width="118.42" height="40.76" as="geometry" />
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-287" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4105.05" y="5897.22" width="30" height="30" as="geometry" />
@@ -2824,8 +2822,24 @@
         <mxCell id="tSPoUM16N8z4JPPPQz9L-300" value="yarn不存在 &lt;br&gt;||&lt;br&gt;仅调整common" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4135.260000000001" y="6362.22" width="158.43" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-302" target="tSPoUM16N8z4JPPPQz9L-345">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4890" y="6313" />
+              <mxPoint x="4890" y="6867" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-302" value="资源全部给 yarn；&lt;br&gt;CPU &amp;lt; 3core 直接驱逐yarn；&lt;br&gt;CPU:MEM按照 1:3 ～1:8动态分配；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4330.740000000001" y="6282.72" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSPoUM16N8z4JPPPQz9L-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tSPoUM16N8z4JPPPQz9L-303" target="tSPoUM16N8z4JPPPQz9L-345">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4890" y="6402" />
+              <mxPoint x="4890" y="6867" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tSPoUM16N8z4JPPPQz9L-303" value="资源全部给 common" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4365.240000000001" y="6382.22" width="131" height="40" as="geometry" />
