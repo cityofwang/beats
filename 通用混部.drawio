@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T01:51:54.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I8G4UNoygUkWx8DvCbd7" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T02:53:32.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1lrN-AIPKEfBP3EkmRcU" version="22.1.21" type="github">
   <diagram name="第 1 页" id="oDTyXBiXJACeo5WI_HqK">
-    <mxGraphModel dx="1434" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -756,7 +756,7 @@
           <mxGeometry x="113.5" y="880" width="20" height="122" as="geometry" />
         </mxCell>
         <mxCell id="e9eDXrmeyJTS1PGcT-Jd-247" value="只有offlineCommon的场景：&lt;br style=&quot;font-size: 14px;&quot;&gt;底层所有的容器规格都比顶层offlineRoot小：&lt;br style=&quot;font-size: 14px;&quot;&gt;1.如果 offlineRoot &amp;gt;= Prediction&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;缩容&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;底层逐个判断执行扩缩容&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;缩小offlineRoot&lt;br&gt;2. 如果 offlineRoot &amp;lt; Prediction&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;扩容&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;扩大offlineRoot&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;底层逐个判断执行扩缩容" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="483.5" y="662" width="300" height="180" as="geometry" />
+          <mxGeometry x="483.5" y="771" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="e9eDXrmeyJTS1PGcT-Jd-248" value="common-2&lt;br&gt;3core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="150" y="802" width="80" height="40" as="geometry" />
@@ -779,8 +779,122 @@
         <mxCell id="e9eDXrmeyJTS1PGcT-Jd-256" value="hadoopCpu&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="390" y="880" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-257" value="如果只有yarn的场景：&lt;br&gt;1.如果 offlineRoot &amp;gt;= Prediction&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;缩容&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;底层逐个判断执行扩缩容&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;缩小offlineRoot&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 如果 offlineRoot &amp;lt; Prediction&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;扩容&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;扩大offlineRoot&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;底层逐个判断执行扩缩容&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="514" y="861" width="220" height="160" as="geometry" />
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-263" value="offline总资源&lt;br&gt;&lt;b&gt;10 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-264" value="common-1&lt;br&gt;10core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-265" value="common-2&lt;br&gt;10core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-266" value="yarn&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-267" value="container&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1674" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-268" value="hadoopCpu&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1794" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-269" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1517.5" y="800" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-273" value="yarn&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2049" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-274" value="container&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2169" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-275" value="hadoopCpu&lt;br&gt;5core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2289" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-279" value="wcloudAgent" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-285" value="client-go" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="98.5" y="1520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-286" value="API-Server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="1370" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-287" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1510" as="sourcePoint" />
+            <mxPoint x="160" y="1445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-289" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159" y="1570" as="sourcePoint" />
+            <mxPoint x="159" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-290" value="offline_common1 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679.75" y="1520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-292" value="offline总资源&lt;br&gt;&lt;b&gt;1 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560.75" y="1520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-293" value="offline_common2 12core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="1889" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-294" value="offline_common1 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679" y="1770" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-295" value="offline总资源&lt;br&gt;&lt;b&gt;12 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1770" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-296" value="offline_common1 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679.5" y="1889" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-297" value="offline总资源&lt;br&gt;&lt;b&gt;12 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560.5" y="1889" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-298" value="offline_common2 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="799" y="2004" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-299" value="offline_common1 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679" y="2004" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-300" value="offline总资源&lt;br&gt;&lt;b&gt;1 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2004" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-301" value="5.2create&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="829.5" y="1825.499045805002" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-302" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="664.25" y="1585" as="sourcePoint" />
+            <mxPoint x="663.75" y="1625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-303" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="664" y="1839" as="sourcePoint" />
+            <mxPoint x="663.5" y="1879" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-304" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="664" y="1955" as="sourcePoint" />
+            <mxPoint x="663.5" y="1995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-306" value="offline_common2 12core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="799.75" y="1636" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-307" value="offline_common1 1core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="679.75" y="1636" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-308" value="offline总资源&lt;br&gt;&lt;b&gt;12 core&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560.75" y="1636" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9eDXrmeyJTS1PGcT-Jd-309" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="1714" as="sourcePoint" />
+            <mxPoint x="659" y="1754" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
