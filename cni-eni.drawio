@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T08:50:17.532Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cd7ttFoepGea3hijpEvk" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-26T08:22:08.790Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="iPZUU2VTJi_i7GSu0Vro" version="24.7.1" type="github">
   <diagram name="第 1 页" id="GepeLTyNPejL2qz-uSBc">
-    <mxGraphModel dx="2803" dy="1235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1275" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -607,8 +607,8 @@
             <mxPoint x="653.0700000000002" y="1404.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B87s43uj8N20lgAx_I1V-193" value="1. CNI 和 CNI-Daemon 如何交互&lt;div&gt;2.如果某一个环节断了怎么办&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1379" y="1497" width="200" height="40" as="geometry" />
+        <mxCell id="B87s43uj8N20lgAx_I1V-193" value="1. CNI 和 CNI-Daemon 如何交互&lt;div&gt;2.如果某一个环节断了怎么办：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1379" y="1487" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B87s43uj8N20lgAx_I1V-194" value="CNI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1780" y="1443" width="120" height="40" as="geometry" />
