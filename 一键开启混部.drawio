@@ -153,7 +153,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k2kt2LY7Nyyv3Ihux5f3-52" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;批量开启混部请求下发完毕，比例 10%～20%，散列 5min 完成&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="87" y="10" width="430" height="30" as="geometry" />
+          <mxGeometry x="88" y="10" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k2kt2LY7Nyyv3Ihux5f3-59" value="比例开启" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="19" y="802" width="246" height="170" as="geometry" />
