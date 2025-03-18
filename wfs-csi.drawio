@@ -179,15 +179,6 @@
         <mxCell id="Q2DZuxBuzv0B8073iqOz-141" value="深度学习-在线预测（推理）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1251" y="1056" width="154" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Q2DZuxBuzv0B8073iqOz-162" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="528.0000000000002" y="1322.2500000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1428" y="1452" />
-            </Array>
-            <mxPoint x="1366" y="1221" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Q2DZuxBuzv0B8073iqOz-163" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontColor=default;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="Q2DZuxBuzv0B8073iqOz-164" target="Q2DZuxBuzv0B8073iqOz-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
