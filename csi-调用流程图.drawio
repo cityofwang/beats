@@ -1,9 +1,610 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="vgbx4lqIKMUpgHbuE2rC">
-    <mxGraphModel>
+    <mxGraphModel dx="3180" dy="-5217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kEyf25OO70TF1u0YimJ6-1" value="动态供应" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="274" y="7126" width="1263" height="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-2" value="用户" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="7926" width="57" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-3" value="API Server" style="rounded=1;arcSize=20;strokeWidth=4;fillColor=none;strokeColor=#FF6666;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="7918" width="103" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-4" value="PV Controller" style="rounded=1;arcSize=20;strokeWidth=4;strokeColor=#CCCC00;" vertex="1" parent="1">
+          <mxGeometry x="748.25" y="8205" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-5" value="Scheduler" style="rounded=1;arcSize=20;strokeWidth=4;strokeColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="549.25" y="8205" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-6" value="CSI Provisioner" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="640" y="7488" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-7" value="CSI Driver" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="992" y="7488" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-8" value="Backend Storage" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;gradientDirection=radial;" vertex="1" parent="1">
+          <mxGeometry x="1363" y="7333" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-9" value="CSI Attacher" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2728" y="7807" width="118" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-10" value="Kubelet" style="rounded=1;arcSize=20;strokeWidth=4;fillColor=none;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1859" y="7524" width="85" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-11" value="operationExecutor" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="2090" y="7751" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-12" value="卷是否已附加?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2502" y="7700" width="156" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-13" value="MountVolume" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2114" y="8219" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-14" value="CSI Node Driver" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1367" y="8219" width="141" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-15" value="Pod 运行" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2146" y="7449" width="87" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-16" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2786" y="8055" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-17" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3098" y="8232" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-18" value="创建 PV 和 PVC" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=-0.01;entryX=0.48;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-2" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry x="-0.4427" y="-56" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="7370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-19" value="通知创建" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.71;entryX=0.34;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-3" target="kEyf25OO70TF1u0YimJ6-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="7982" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-20" value="绑定 PV 和 PVC" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=-0.01;entryX=1;entryY=0.95;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-4" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="8024" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-21" value="创建 Pod" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0.99;entryX=0.39;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-2" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193" y="8115" />
+              <mxPoint x="274" y="8115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-22" value="调度 Pod" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.31;entryY=-0.01;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-3" target="kEyf25OO70TF1u0YimJ6-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="8067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-23" value="选择节点" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=-0.01;entryX=0.78;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-5" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry x="0.0529" y="16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="8109" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-24" value="若 PVC 需动态供应，触发创建 PV" style="curved=1;startArrow=none;endArrow=block;entryX=0.39;entryY=0;rounded=0;" edge="1" parent="1" target="kEyf25OO70TF1u0YimJ6-6">
+          <mxGeometry x="0.7544" y="-50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="7177" />
+            </Array>
+            <mxPoint x="350" y="7918" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-25" value="调用 CreateVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-6" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.4268" y="-71" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="7173" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-26" value="创建存储卷" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0.31;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-8">
+          <mxGeometry x="0.46" y="-51" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1111" y="7073" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-27" value="返回卷信息" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.98;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-8" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.2334" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1287" y="7436" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-28" value="返回信息" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.58;entryX=1;entryY=0.62;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="7530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-29" value="创建 PV 并绑定到 PVC" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.61;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-6" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry x="-0.2318" y="32" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="7530" />
+            </Array>
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-30" value="创建 VolumeAttachment" style="curved=1;startArrow=none;endArrow=block;entryX=0.45;entryY=0;rounded=0;" edge="1" parent="1" target="kEyf25OO70TF1u0YimJ6-9">
+          <mxGeometry x="0.044" y="-4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="7577" />
+              <mxPoint x="1529" y="7568" />
+              <mxPoint x="1804" y="7403" />
+              <mxPoint x="2651" y="7392" />
+            </Array>
+            <mxPoint x="374" y="7918" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-31" value="调用 ControllerPublishVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.64;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-9" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.1801" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2693" y="7891" />
+              <mxPoint x="1265" y="7876" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-32" value="附加卷到节点" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0.26;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-8">
+          <mxGeometry x="0.4506" y="-50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1133" y="7150" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-33" value="返回附加结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=1;entryY=0.17;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-8" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.247" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1276" y="7480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-34" value="返回结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.25;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-9">
+          <mxGeometry x="0.1018" y="7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="7665" />
+              <mxPoint x="2695" y="7623" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-35" value="更新 VolumeAttachment 状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=1;entryY=0.42;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-9" target="kEyf25OO70TF1u0YimJ6-3">
+          <mxGeometry x="-0.2942" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2693" y="7931" />
+              <mxPoint x="521" y="7931" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-36" value="通知 Pod 调度到节点" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0;entryY=0.4;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-3" target="kEyf25OO70TF1u0YimJ6-10">
+          <mxGeometry x="0.7484" y="6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="7623" />
+              <mxPoint x="1537" y="7590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-37" value="执行挂载操作" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1.01;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-10" target="kEyf25OO70TF1u0YimJ6-11">
+          <mxGeometry x="0.0203" y="23" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1969" y="7778" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-38" value="VerifyControllerAttachedVolume，验证卷是否附加" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.23;entryX=0;entryY=0.41;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-11" target="kEyf25OO70TF1u0YimJ6-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2377" y="7741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-39" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-12" target="kEyf25OO70TF1u0YimJ6-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2693" y="7778" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-40" value="再次调用 ControllerPublishVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=1;entryX=0.62;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-9" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.1393" y="2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2693" y="7971" />
+              <mxPoint x="1320" y="7986" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-41" value="再次尝试附加卷到节点" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0;entryX=0.15;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-8">
+          <mxGeometry x="0.4629" y="-36" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1166" y="7227" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-42" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=1;entryY=0.79;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-12" target="kEyf25OO70TF1u0YimJ6-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2377" y="7818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-43" value="MountVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-11" target="kEyf25OO70TF1u0YimJ6-13">
+          <mxGeometry x="0.167" y="-21" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2222" y="8063" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-44" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.64;exitY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2409" y="8129" />
+            </Array>
+            <mxPoint x="2552" y="8107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-45" value="WaitForAttach，等待卷物理附加完成" style="curved=1;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.714" y="-9" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2761" y="8074" />
+            </Array>
+            <mxPoint x="2552" y="8107" as="sourcePoint" />
+            <mxPoint x="2794" y="8239" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-46" value="" style="curved=1;startArrow=none;endArrow=block;entryX=1.01;entryY=0.7;rounded=0;" edge="1" parent="1" target="kEyf25OO70TF1u0YimJ6-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2693" y="8252" />
+            </Array>
+            <mxPoint x="2794" y="8239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-47" value="MountDevice，调用 CSI 驱动进行阶段化操作" style="startArrow=none;endArrow=block;exitX=0;exitY=0.32;entryX=0.93;entryY=0.01;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-13" target="kEyf25OO70TF1u0YimJ6-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2114" y="8173" />
+              <mxPoint x="1499" y="8173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-48" value="调用 NodeStageVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=0.01;entryX=0.25;entryY=1;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-14" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.0918" y="-23" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1199" y="8096" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-49" value="执行阶段化操作（如格式化）" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=0;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-8">
+          <mxGeometry x="0.4785" y="-27" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1199" y="7293" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-50" value="返回阶段化结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=1;entryY=0.37;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-8" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.3316" y="-41" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="7524" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-51" value="返回结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.35;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-14">
+          <mxGeometry x="0.0002" y="10" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-52" value="mounter.SetupAt，挂载阶段化后的卷到 Pod 挂载点" style="startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=1;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-13" target="kEyf25OO70TF1u0YimJ6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-53" value="调用 NodePublishVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=0.01;entryX=0.25;entryY=1;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-14" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.1098" y="-15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1166" y="8129" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-54" value="挂载卷到 Pod 挂载点" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-8">
+          <mxGeometry x="0.3651" y="-21" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1243" y="7348" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-55" value="返回挂载结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=1;entryY=0.57;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-8" target="kEyf25OO70TF1u0YimJ6-7">
+          <mxGeometry x="-0.0098" y="-39" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1375" y="7546" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-56" value="返回结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.31;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-7" target="kEyf25OO70TF1u0YimJ6-14">
+          <mxGeometry x="-0.094" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="8030" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-57" value="SetUp，完成整个卷挂载流程" style="startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=1;entryY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-13" target="kEyf25OO70TF1u0YimJ6-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2116" y="8305" />
+              <mxPoint x="1508" y="8305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-58" value="返回挂载结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=0.01;entryX=0;entryY=0.56;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-14" target="kEyf25OO70TF1u0YimJ6-10">
+          <mxGeometry x="0.0721" y="-24" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1661" y="7590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-59" value="启动 Pod 容器" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.51;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-10" target="kEyf25OO70TF1u0YimJ6-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-60" value="用户" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="8897" width="57" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-61" value="API Server" style="rounded=1;arcSize=20;strokeWidth=4;fillColor=none;strokeColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="241" y="8889" width="103" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-62" value="Kubelet" style="rounded=1;arcSize=20;strokeWidth=4;fillColor=none;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="498" y="8696" width="85" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-63" value="CSI Node Driver" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="851" y="8696" width="141" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-64" value="CSI Driver" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="8666" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-65" value="Backend Storage" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;gradientDirection=radial;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="8536" width="149" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-66" value="CSI Attacher" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1524" y="8822" width="118" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-67" value="CSI Provisioner" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1516" y="8989" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-68" value="删除 Pod" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0;entryY=0.69;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-60" target="kEyf25OO70TF1u0YimJ6-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="8937" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-69" value="通知 Pod 删除" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-61" target="kEyf25OO70TF1u0YimJ6-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="8723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-70" value="调用 NodeUnpublishVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=1;entryX=0.13;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-62" target="kEyf25OO70TF1u0YimJ6-63">
+          <mxGeometry x="0.0722" y="37" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="708" y="8834" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-71" value="卸载卷" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.26;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-63" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.2138" y="33" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="8834" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-72" value="从 Pod 挂载点卸载卷" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.29;entryY=0.99;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-65">
+          <mxGeometry x="-0.083" y="32" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1552" y="8756" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-73" value="返回卸载结果" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.52;entryX=0.94;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-65" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.3677" y="22" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1386" y="8536" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-74" value="返回结果" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.38;entryX=1;entryY=0.13;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="8676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-75" value="调用 NodeUnstageVolume" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.38;entryX=0;entryY=0.35;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-62" target="kEyf25OO70TF1u0YimJ6-63">
+          <mxGeometry x="0.0467" y="-18" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="708" y="8657" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-76" value="取消阶段化卷" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.16;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-63" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="0.1551" y="28" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="8791" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-77" value="取消阶段化操作" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.23;entryY=0.99;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-65">
+          <mxGeometry x="-0.1434" y="39" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1441" y="8734" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-78" value="返回取消阶段化结果" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.23;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-65" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.4929" y="34" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1375" y="8481" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-79" value="返回结果" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.03;entryX=0.83;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="8629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-80" value="触发 VolumeAttachment 删除" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.31;entryX=0;entryY=0.73;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-61" target="kEyf25OO70TF1u0YimJ6-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="8891" />
+              <mxPoint x="1385" y="8877" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-81" value="调用 ControllerUnpublishVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.28;entryX=0.91;entryY=1;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-66" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.3261" y="-28" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1385" y="8808" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-82" value="从节点分离卷" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.39;entryX=0.1;entryY=0.99;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-65">
+          <mxGeometry x="-0.0361" y="22" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="8690" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-83" value="返回分离结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=-0.01;entryX=0.75;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-65" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.4112" y="52" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1353" y="8426" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-84" value="返回结果" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.56;rounded=0;" edge="1" parent="1" target="kEyf25OO70TF1u0YimJ6-66">
+          <mxGeometry x="0.3269" y="25" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1385" y="8859" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="1254" y="8720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-85" value="删除 PVC" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.32;entryX=0;entryY=0.32;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-60" target="kEyf25OO70TF1u0YimJ6-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="8895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-86" value="通知 PVC 删除" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0;entryY=0.69;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-61" target="kEyf25OO70TF1u0YimJ6-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="9047" />
+              <mxPoint x="1385" y="9047" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-87" value="调用 DeleteVolume" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0.67;entryY=1;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-67" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.5257" y="-11" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1452" y="8943" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-88" value="删除存储卷" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.16;entryX=0;entryY=0.82;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-64" target="kEyf25OO70TF1u0YimJ6-65">
+          <mxGeometry x="-0.0092" y="14" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="8657" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-89" value="返回删除结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=-0.01;entryX=0.7;entryY=0;rounded=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-65" target="kEyf25OO70TF1u0YimJ6-64">
+          <mxGeometry x="-0.4533" y="53" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1309" y="8349" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-90" value="返回结果" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kEyf25OO70TF1u0YimJ6-67">
+          <mxGeometry x="0.3393" y="12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1441" y="8976" />
+            </Array>
+            <mxPoint y="-1" as="offset" />
+            <mxPoint x="1232" y="8723" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-91" value="删除 PV" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1.01;entryY=0.7;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kEyf25OO70TF1u0YimJ6-67" target="kEyf25OO70TF1u0YimJ6-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1397" y="8932" />
+              <mxPoint x="421" y="8942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-92" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;挂载&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="7053" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kEyf25OO70TF1u0YimJ6-93" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;卸&lt;font style=&quot;&quot;&gt;载&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="8403" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
