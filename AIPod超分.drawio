@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="mapy26vzE7bPaaAK0POL">
-    <mxGraphModel dx="1378" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1432" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,84 +175,60 @@
           <mxGeometry x="1710" y="330" width="204" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1052" y="340" width="92" height="54" as="geometry" />
+          <mxGeometry x="1052" y="509" width="92" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-4" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-1" target="4i2PDBWtnrFrwrdggbxH-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="1098" y="449" as="targetPoint" />
+            <mxPoint x="1098" y="618" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4i2PDBWtnrFrwrdggbxH-7" target="4i2PDBWtnrFrwrdggbxH-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-7" value="Agent 检测到&#xa;pod 变动" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="996" y="440" width="204" height="54" as="geometry" />
+          <mxGeometry x="1036" y="606" width="124" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-8" target="4i2PDBWtnrFrwrdggbxH-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4i2PDBWtnrFrwrdggbxH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1091.0400000000002" y="750.3" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-8" target="4i2PDBWtnrFrwrdggbxH-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-8" value="当前卡上是否均为&#xa;非独占 Pod" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1008" y="700.25" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-8" value="当前卡是否为&#xa;多 Pod 使用 或 pod非独占" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1008" y="547" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-9" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="940" y="559" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-11" target="4i2PDBWtnrFrwrdggbxH-15" edge="1">
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-11" target="4i2PDBWtnrFrwrdggbxH-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-11" target="4i2PDBWtnrFrwrdggbxH-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-11" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="689" y="647" width="181" height="101.5" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-14" target="4i2PDBWtnrFrwrdggbxH-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-14" value="当前卡是否为&#xa;pod 独占/ 无 pod" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1008" y="696" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-15" value="给node打新annotation&#xa;（超分gpu&amp;mem资源）" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="860" y="1040" width="173" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="860" y="661" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-18" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1029" y="671" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-19" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="705" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-20" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1039" y="796" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.712;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-21" target="4i2PDBWtnrFrwrdggbxH-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1069" y="1040" as="targetPoint" />
+            <mxPoint x="1012.97" y="1231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="907" />
+              <mxPoint x="810" y="1225" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4i2PDBWtnrFrwrdggbxH-21" target="4i2PDBWtnrFrwrdggbxH-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-11" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="847.45" y="856.37" width="181" height="101.5" as="geometry" />
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-21" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1008" y="848.5" width="181" height="101.5" as="geometry" />
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-15" value="给node打新annotation&#xa;（超分gpu&amp;mem资源）" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="851.45" y="1047.8700000000001" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="945.5" y="957.87" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-18" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="1188" y="724" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-22" value="解除 node 超分" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1274.75" y="1040" width="149.5" height="54" as="geometry" />
+          <mxGeometry x="1180.25" y="1047.87" width="149.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-26" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="650" y="658" width="40" height="30" as="geometry" />
+          <mxGeometry x="825.5" y="863.62" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-27" value="return" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1048" y="1200" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-34" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="968" y="860" width="40" height="30" as="geometry" />
+          <mxGeometry x="1044.5" y="1200" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4i2PDBWtnrFrwrdggbxH-35" target="4i2PDBWtnrFrwrdggbxH-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -260,25 +236,24 @@
         <mxCell id="4i2PDBWtnrFrwrdggbxH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-35" target="4i2PDBWtnrFrwrdggbxH-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1480" y="899" />
-              <mxPoint x="1480" y="1225" />
+              <mxPoint x="1390" y="907" />
+              <mxPoint x="1390" y="1225" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-35" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1259" y="848.5" width="181" height="101.5" as="geometry" />
+          <mxGeometry x="1164.5" y="856.37" width="181" height="101.5" as="geometry" />
         </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-14" target="4i2PDBWtnrFrwrdggbxH-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4i2PDBWtnrFrwrdggbxH-39" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="950" width="40" height="30" as="geometry" />
+        <mxCell id="4i2PDBWtnrFrwrdggbxH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4i2PDBWtnrFrwrdggbxH-8" target="4i2PDBWtnrFrwrdggbxH-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1188" y="746" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-42" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="950" width="40" height="30" as="geometry" />
+          <mxGeometry x="1205.5" y="957.87" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="860" width="40" height="30" as="geometry" />
+          <mxGeometry x="1345.5" y="863.62" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4i2PDBWtnrFrwrdggbxH-45" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1056.97" y="1360" width="92" height="54" as="geometry" />
@@ -404,8 +379,232 @@
         <mxCell id="4i2PDBWtnrFrwrdggbxH-82" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1248.75" y="1558.5" width="181" height="101.5" as="geometry" />
         </mxCell>
-        <mxCell id="-apsCL6uiRQmc4PMa9b0-1" value="Agent 检测到&#xa;Pod 变动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="1460" width="204" height="54" as="geometry" />
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="-apsCL6uiRQmc4PMa9b0-1" target="FZOX0bs2f3mo9TGknLhM-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2650" y="1331" />
+              <mxPoint x="2650" y="1189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-74" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3. 更新 Node 的 annotation 中&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Nvidia 的 GPU 的 显存 GPU 规格&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZOX0bs2f3mo9TGknLhM-66">
+          <mxGeometry x="-0.1476" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-apsCL6uiRQmc4PMa9b0-1" target="FZOX0bs2f3mo9TGknLhM-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-apsCL6uiRQmc4PMa9b0-1" value="wcloudAgent" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2707.5" y="1311" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-4" value="Pod 独占：单卡出现 Pod&amp;nbsp;&lt;div&gt;的使用的vGPU 份数为 100%&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="666.25" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-6" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="968" y="724" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-7" value="hami-shechudler" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2777" y="1169" width="118" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-8" value="node&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2697.95" y="1284" width="300.55" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-9" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1872" y="1680" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-9" target="FZOX0bs2f3mo9TGknLhM-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1918" y="1789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-12" target="FZOX0bs2f3mo9TGknLhM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-12" value="Agent 检测到&#xa;pod 变动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1856" y="1777" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FZOX0bs2f3mo9TGknLhM-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1911.0400000000002" y="1921.3" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-14" value="当前卡上是否均为&#xa;非独占 Pod" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1828" y="1871.25" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-17" target="FZOX0bs2f3mo9TGknLhM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-17" target="FZOX0bs2f3mo9TGknLhM-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1832.97" y="2402" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="2078" />
+              <mxPoint x="1630" y="2396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-17" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1667.45" y="2027.37" width="181" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-18" value="给node打新annotation&#xa;（超分gpu&amp;mem资源）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1671.45" y="2218.87" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1765.5" y="2128.87" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-20" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="1895" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-21" value="解除 node 超分" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2000.25" y="2218.87" width="149.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645.5" y="2034.62" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-23" value="return" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1864.5" y="2371" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-26" target="FZOX0bs2f3mo9TGknLhM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-26" target="FZOX0bs2f3mo9TGknLhM-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2210" y="2078" />
+              <mxPoint x="2210" y="2396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-26" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1984.5" y="2027.37" width="181" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-14" target="FZOX0bs2f3mo9TGknLhM-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2008" y="1917" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2025.5" y="2128.87" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-29" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2165.5" y="2034.62" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-30" value="Pod 独占：单卡出现 Pod&amp;nbsp;&lt;div&gt;的使用的vGPU 份数为 100%&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1837.25" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1788" y="1895" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-34" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;1).&lt;/font&gt;&lt;/b&gt;&amp;nbsp; annotation：GPU-10e31a92-b67a-5235-e1b0-5fd5fdcf3a13,NVIDIA,&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;23808&lt;/font&gt;,&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;100&lt;/font&gt;:;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="3015" y="1284" width="586" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2901.5" y="1286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-37" value="1.调度 Pod" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="FZOX0bs2f3mo9TGknLhM-36">
+          <mxGeometry x="-0.6905" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-35" value="pod" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-39" target="FZOX0bs2f3mo9TGknLhM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-39" value="2. Agent 检测到&#xa;pod 变动" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2705.5" y="1409" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FZOX0bs2f3mo9TGknLhM-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2760.54" y="1553.3000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-41" value="当前卡上是否均为&#xa;非独占 Pod" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2677.5" y="1503.25" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-44" target="FZOX0bs2f3mo9TGknLhM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-44" target="FZOX0bs2f3mo9TGknLhM-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2682.4700000000003" y="2034" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2480" y="1710" />
+              <mxPoint x="2480" y="1950" />
+              <mxPoint x="2714" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-44" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2516.95" y="1659.37" width="181" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-45" value="给node打新annotation&#xa;（超分gpu&amp;mem资源）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2520.95" y="1805" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-46" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2615" y="1760.87" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-47" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2857.5" y="1527" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-48" value="解除 node 超分" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2850.5" y="1805" width="149.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="1666.62" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-50" value="return" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2725.25" y="1928" width="82.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-53" target="FZOX0bs2f3mo9TGknLhM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-53" target="FZOX0bs2f3mo9TGknLhM-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3060" y="1710" />
+              <mxPoint x="3060" y="1950" />
+              <mxPoint x="2814" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-53" value="node 是否已经超分？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2834" y="1659.37" width="181" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZOX0bs2f3mo9TGknLhM-41" target="FZOX0bs2f3mo9TGknLhM-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2857.5" y="1549" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-55" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="1760.87" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="3015" y="1666.62" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-57" value="Pod 独占：单卡出现 Pod&amp;nbsp;&lt;div&gt;的使用的vGPU 份数为 100%&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2869.5" y="1469.25" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-58" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2637.5" y="1527" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-61" value="pod" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="1291" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-63" value="1）pod 独占一张卡&lt;div&gt;2）当前没有 pod 占用&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2934" y="1563.25" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-64" value="有一个及以上的&amp;nbsp;&lt;div&gt;使用 vgpu&amp;lt;100的 pod&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2477" y="1570" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZOX0bs2f3mo9TGknLhM-75" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;2).&lt;/font&gt;&lt;/b&gt;&amp;nbsp; annotation：GPU-10e31a92-b67a-5235-e1b0-5fd5fdcf3a13,NVIDIA,&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;28569&lt;/font&gt;,&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;120&lt;/font&gt;:;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="3015" y="1334" width="586" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
