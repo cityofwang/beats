@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="第 1 页" id="kOqarNOTkPkoXesucftW">
-    <mxGraphModel>
+    <mxGraphModel dx="1644" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fgFxJciLepxqeVgZWJXY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC - eth0" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E4CEB7;strokeColor=#d79b00;" value="NIC - rdma（&lt;strong style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RoCE&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="270" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="129.5" as="sourcePoint" />
+            <mxPoint x="490" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-5" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="sr-iov" vertex="1">
+          <mxGeometry height="30" width="50" x="430" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v0" vertex="1">
+          <mxGeometry height="40" width="120" x="510" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v1" vertex="1">
+          <mxGeometry height="40" width="120" x="510" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC - eth0" vertex="1">
+          <mxGeometry height="40" width="120" x="120" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v0" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v1" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;mid&amp;quot;:&amp;quot;OWlL4KVR7kzN8RaAdz3-z&amp;quot;,&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;dataid&amp;quot;:1,&amp;quot;isWideTable&amp;quot;:true,&amp;quot;textAlign&amp;quot;:&amp;quot;left&amp;quot;},&amp;quot;tableRow&amp;quot;,{&amp;quot;mid&amp;quot;:null},&amp;quot;tableCell&amp;quot;,{&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;align&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colwidth&amp;quot;:[342],&amp;quot;baseColwidth&amp;quot;:[342],&amp;quot;verticalAlign&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;mid&amp;quot;:null}]&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;SR-IOV Device Plugin&lt;/strong&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="270" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="识别及分配 vf&lt;div&gt;vf pool ：vf0、&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vf1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="硬件能力：网卡虚拟化" vertex="1">
+          <mxGeometry height="30" width="140" x="385" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="725" x="35" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="pod&lt;div&gt;----------&lt;/div&gt;&lt;div&gt;resource：vf=1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="655" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="kubectl describe node&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;&lt;div&gt;虚拟网卡资源&lt;br&gt;vf0&lt;/div&gt;&lt;div&gt;vf1&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="-350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="1. 基础硬件条件：rdma + sr-iov&lt;div&gt;2. 部署&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SR-IOV Device Plugin 识别&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;虚拟网卡，并以此作为资源上报 node&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. sr-iov CNI 管理 vf 网络&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="410" x="200" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="识别 vf" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="455" as="sourcePoint" />
+            <mxPoint x="490" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="410" as="sourcePoint" />
+            <mxPoint x="-40" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="资源上报" vertex="1">
+          <mxGeometry height="30" width="70" x="95" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-27" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" value="kubelet" vertex="1">
+          <mxGeometry height="48" width="50" x="670" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="fgFxJciLepxqeVgZWJXY-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="sr-iov-cni" vertex="1">
+          <mxGeometry height="70" width="90" x="560" y="640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
