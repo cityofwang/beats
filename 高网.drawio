@@ -1,89 +1,185 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="kOqarNOTkPkoXesucftW">
-    <mxGraphModel dx="1644" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fgFxJciLepxqeVgZWJXY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC - eth0" vertex="1">
-          <mxGeometry height="40" width="120" x="110" y="110" as="geometry" />
+          <mxGeometry height="40" width="120" x="-210" y="110" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E4CEB7;strokeColor=#d79b00;" value="NIC - rdma（&lt;strong style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RoCE&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="270" y="110" as="geometry" />
+          <mxGeometry height="40" width="120" x="-50" y="110" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="129.5" as="sourcePoint" />
-            <mxPoint x="490" y="129.5" as="targetPoint" />
+            <mxPoint x="110" y="129.5" as="sourcePoint" />
+            <mxPoint x="170" y="129.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-5" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="sr-iov" vertex="1">
-          <mxGeometry height="30" width="50" x="430" y="100" as="geometry" />
+          <mxGeometry height="30" width="50" x="110" y="100" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v0" vertex="1">
-          <mxGeometry height="40" width="120" x="510" y="90" as="geometry" />
+          <mxGeometry height="40" width="120" x="190" y="90" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v1" vertex="1">
-          <mxGeometry height="40" width="120" x="510" y="150" as="geometry" />
+          <mxGeometry height="40" width="120" x="190" y="150" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC - eth0" vertex="1">
-          <mxGeometry height="40" width="120" x="120" y="600" as="geometry" />
+          <mxGeometry height="40" width="120" x="-200" y="600" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v0" vertex="1">
-          <mxGeometry height="40" width="120" x="280" y="600" as="geometry" />
+          <mxGeometry height="40" width="120" x="-40" y="600" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v1" vertex="1">
-          <mxGeometry height="40" width="120" x="440" y="600" as="geometry" />
+          <mxGeometry height="40" width="120" x="120" y="600" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;mid&amp;quot;:&amp;quot;OWlL4KVR7kzN8RaAdz3-z&amp;quot;,&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;dataid&amp;quot;:1,&amp;quot;isWideTable&amp;quot;:true,&amp;quot;textAlign&amp;quot;:&amp;quot;left&amp;quot;},&amp;quot;tableRow&amp;quot;,{&amp;quot;mid&amp;quot;:null},&amp;quot;tableCell&amp;quot;,{&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;align&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colwidth&amp;quot;:[342],&amp;quot;baseColwidth&amp;quot;:[342],&amp;quot;verticalAlign&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;mid&amp;quot;:null}]&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;SR-IOV Device Plugin&lt;/strong&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="50" width="160" x="270" y="390" as="geometry" />
+          <mxGeometry height="50" width="160" x="-50" y="390" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="识别及分配 vf&lt;div&gt;vf pool ：vf0、&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vf1&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="290" y="350" as="geometry" />
+          <mxGeometry height="40" width="120" x="-30" y="350" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="硬件能力：网卡虚拟化" vertex="1">
-          <mxGeometry height="30" width="140" x="385" y="50" as="geometry" />
+          <mxGeometry height="30" width="140" x="65" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="fgFxJciLepxqeVgZWJXY-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="430" width="725" x="35" y="290" as="geometry" />
+        <mxCell id="fgFxJciLepxqeVgZWJXY-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="725" x="-285" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="fgFxJciLepxqeVgZWJXY-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="pod&lt;div&gt;----------&lt;/div&gt;&lt;div&gt;resource：vf=1&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="655" y="330" as="geometry" />
+        <mxCell id="fgFxJciLepxqeVgZWJXY-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="pod&lt;div&gt;--------&lt;/div&gt;&lt;div&gt;annotation :&amp;nbsp;nvidia.com/nic-pf&lt;br&gt;&lt;div&gt;----------&lt;/div&gt;&lt;div&gt;resource：pf=1&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="-510" y="970" as="geometry" />
         </mxCell>
-        <mxCell id="fgFxJciLepxqeVgZWJXY-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="kubectl describe node&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;&lt;div&gt;虚拟网卡资源&lt;br&gt;vf0&lt;/div&gt;&lt;div&gt;vf1&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="290" x="-350" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="fgFxJciLepxqeVgZWJXY-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="1. 基础硬件条件：rdma + sr-iov&lt;div&gt;2. 部署&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SR-IOV Device Plugin 识别&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;虚拟网卡，并以此作为资源上报 node&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. sr-iov CNI 管理 vf 网络&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="410" x="200" y="750" as="geometry" />
+        <mxCell id="fgFxJciLepxqeVgZWJXY-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="kubectl describe node&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;……&lt;/div&gt;&lt;div&gt;虚拟网卡资源数量&lt;br&gt;pf ： 4&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;……&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="-670" y="280" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="360" y="450" as="sourcePoint" />
-            <mxPoint x="360" y="580" as="targetPoint" />
+            <mxPoint x="40" y="450" as="sourcePoint" />
+            <mxPoint x="40" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="识别 vf" vertex="1">
-          <mxGeometry height="30" width="60" x="350" y="460" as="geometry" />
+          <mxGeometry height="30" width="60" x="30" y="460" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="455" as="sourcePoint" />
-            <mxPoint x="490" y="585" as="targetPoint" />
+            <mxPoint x="70" y="455" as="sourcePoint" />
+            <mxPoint x="170" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="260" y="410" as="sourcePoint" />
-            <mxPoint x="-40" y="370" as="targetPoint" />
+            <mxPoint x="-60" y="410" as="sourcePoint" />
+            <mxPoint x="-360" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="资源上报" vertex="1">
-          <mxGeometry height="30" width="70" x="95" y="390" as="geometry" />
+          <mxGeometry height="30" width="70" x="-225" y="390" as="geometry" />
         </mxCell>
         <mxCell id="fgFxJciLepxqeVgZWJXY-27" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" value="kubelet" vertex="1">
-          <mxGeometry height="48" width="50" x="670" y="585" as="geometry" />
+          <mxGeometry height="48" width="50" x="350" y="585" as="geometry" />
         </mxCell>
-        <mxCell id="fgFxJciLepxqeVgZWJXY-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="sr-iov-cni" vertex="1">
-          <mxGeometry height="70" width="90" x="560" y="640" as="geometry" />
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NetworkAttachmentDefinition" vertex="1">
+          <mxGeometry height="230" width="330" x="490" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-2" parent="ooAvv0LqF59y5m_FG2A0-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;apiVersion: k8s.cni.cncf.io/v1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;kind: NetworkAttachmentDefinition&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;metadata:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; name: host-rdma-net&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; namespace: kube-system&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; #namespace: inference-hdp-teu-dia&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; annotations:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; k8s.v1.cni.cncf.io/resourceName: nvidia.com/nic-pf&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC - eth0" vertex="1">
+          <mxGeometry height="40" width="120" x="-200" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v0" vertex="1">
+          <mxGeometry height="40" width="120" x="-40" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="NIC - rdma - v1" vertex="1">
+          <mxGeometry height="40" width="120" x="120" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;mid&amp;quot;:&amp;quot;OWlL4KVR7kzN8RaAdz3-z&amp;quot;,&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;dataid&amp;quot;:1,&amp;quot;isWideTable&amp;quot;:true,&amp;quot;textAlign&amp;quot;:&amp;quot;left&amp;quot;},&amp;quot;tableRow&amp;quot;,{&amp;quot;mid&amp;quot;:null},&amp;quot;tableCell&amp;quot;,{&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;align&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colwidth&amp;quot;:[342],&amp;quot;baseColwidth&amp;quot;:[342],&amp;quot;verticalAlign&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;mid&amp;quot;:null}]&quot; style=&quot;text-align: left;&quot;&gt;&lt;strong&gt;SR-IOV Device Plugin&lt;/strong&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="-50" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="识别及分配 vf&lt;div&gt;vf pool ：vf0、&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;vf1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="-30" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="725" x="-285" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-15" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" value="kubelet" vertex="1">
+          <mxGeometry height="48" width="50" x="350" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;mid&amp;quot;:&amp;quot;OWlL4KVR7kzN8RaAdz3-z&amp;quot;,&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;dataid&amp;quot;:1,&amp;quot;isWideTable&amp;quot;:true,&amp;quot;textAlign&amp;quot;:&amp;quot;left&amp;quot;},&amp;quot;tableRow&amp;quot;,{&amp;quot;mid&amp;quot;:null},&amp;quot;tableCell&amp;quot;,{&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;align&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colwidth&amp;quot;:[342],&amp;quot;baseColwidth&amp;quot;:[342],&amp;quot;verticalAlign&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;mid&amp;quot;:null}]&quot; style=&quot;&quot;&gt;&lt;strong&gt;SR-IOV Device Plugin&lt;/strong&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1173" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="准备工作" vertex="1">
+          <mxGeometry height="30" width="60" x="1000" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;根据配置&lt;/div&gt;识别 rdma 设备资源&lt;div&gt;并上报&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1173" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,{&amp;quot;mid&amp;quot;:&amp;quot;OWlL4KVR7kzN8RaAdz3-z&amp;quot;,&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;dataid&amp;quot;:1,&amp;quot;isWideTable&amp;quot;:true,&amp;quot;textAlign&amp;quot;:&amp;quot;left&amp;quot;},&amp;quot;tableRow&amp;quot;,{&amp;quot;mid&amp;quot;:null},&amp;quot;tableCell&amp;quot;,{&amp;quot;style&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colspan&amp;quot;:1,&amp;quot;rowspan&amp;quot;:1,&amp;quot;align&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;width&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;colwidth&amp;quot;:[342],&amp;quot;baseColwidth&amp;quot;:[342],&amp;quot;verticalAlign&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;mid&amp;quot;:null}]&quot; style=&quot;&quot;&gt;&lt;b&gt;自定义资源&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="1430" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;创建 nad，&lt;/div&gt;&lt;div&gt;用于 multus 识别并创建对应的网卡设备&lt;/div&gt;&lt;div&gt;nad：存储 cni 插件调用链配置&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1400" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-37" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-38" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-51" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="分配设备&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;顺序调用设备插件&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="62.5" x="1210" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-29" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" value="kubelet" vertex="1">
+          <mxGeometry height="48" width="50" x="1216" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="nvida-device-plugin" vertex="1">
+          <mxGeometry height="40" width="130" x="1455" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="分配的 GPU" vertex="1">
+          <mxGeometry height="20" width="100" x="1320" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="sriov-device-plugin" vertex="1">
+          <mxGeometry height="40" width="130" x="1455" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="结合拓扑结构，&lt;div&gt;分配适合的 rdma 卡&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="120" x="1310" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-52" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="创建网络设备" vertex="1">
+          <mxGeometry height="40" width="95.25" x="1193" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-50" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-42" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;创建 Pod&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95.25" x="1193" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-54" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-43" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;multus-cni&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="95.25" x="1379.28" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-55" edge="1" parent="1" source="ooAvv0LqF59y5m_FG2A0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ooAvv0LqF59y5m_FG2A0-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-44" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;创建 eth0 主网卡&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="104.25" x="1374.78" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pod&lt;div&gt;--------&lt;/div&gt;&lt;div&gt;annotation :&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt; k8s.v1.cni.cncf.io/networks&lt;/font&gt;: |-&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; [&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;name&quot;: &quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 255), rgb(255, 255, 255));&quot;&gt;host-rdma-net&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;namespace&quot;: &quot;kube-system&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&quot;interface&quot;: &quot;net1&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;----------&lt;/div&gt;&lt;div&gt;resource：pf=1，gpu=2&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="167" width="260" x="890" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-47" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="遍历&lt;div&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;k8s.v1.cni.cncf.io/networks&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="172.37" x="1340.72" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="ooAvv0LqF59y5m_FG2A0-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="根据 nad（eg：&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;host-rdma-net&lt;/span&gt;）顺序调用 cni 插件" vertex="1">
+          <mxGeometry height="60" width="120" x="1559.28" y="930" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
